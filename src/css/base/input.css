@@ -1,0 +1,185 @@
+.m-input,
+.mx-input {
+  padding-left: 12px !important;
+  padding-right: 14px !important;
+  border-radius: 4px !important;
+  height: 32px !important;
+  border: 1px solid #babec5;
+  box-sizing: border-box !important;
+  outline: none !important;
+  width: -webkit-fill-available !important;
+  font-size: 13px !important;
+}
+
+.m-input::placeholder {
+  font-size: 13px;
+  color: #949494;
+  font-style: italic;
+}
+
+.m-input:hover {
+  outline: 1px solid #e2e2e2;
+}
+
+.mx-input:hover {
+  border-color: #babec5 !important;
+}
+
+.m-input:focus,
+.mx-input:focus {
+  border: 1px solid #2ca01c !important;
+}
+
+.m-input-icon {
+  padding-right: 36px;
+}
+
+.m-icon-after {
+  cursor: pointer;
+  position: absolute;
+  left: auto;
+  right: 22px;
+  top: 7px;
+}
+
+.m-input-search {
+  width: 240px;
+  margin-right: 12px;
+}
+
+.m-input-title {
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 4px;
+  white-space: nowrap;
+}
+
+.m-input-title-require {
+  color: red;
+}
+
+.m-input-focus {
+  border-color: #2ca01c !important;
+}
+
+.m-input-error,
+.m-input-error:hover,
+.m-input-error:focus {
+  border-color: red !important;
+}
+
+/* Input radio */
+.m-con-radio {
+  margin-right: 24px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.m-input-radio {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  width: 20px;
+}
+
+.m-radio {
+  cursor: pointer;
+  position: relative;
+}
+
+.m-radio-border {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #afafaf;
+  background: #fff;
+  z-index: 1;
+  justify-content: center;
+  display: block;
+}
+
+.m-input-radio:checked + .m-radio .m-radio-border {
+  border-color: #2ca01c;
+}
+
+.m-input-radio:checked + .m-radio .m-radio-circle {
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  background: #2ca01c;
+}
+
+.m-radio-label {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* CSS input width */
+
+.m-input-40 {
+  width: 40% !important;
+}
+
+.m-input-60 {
+  width: 60% !important;
+}
+
+.m-input-100 {
+  width: 100% !important;
+}
+
+/* Css datepicker */
+
+.mx-datepicker {
+  width: -webkit-fill-available !important;
+}
+
+.mx-datepicker-footer {
+  text-align: center !important;
+}
+
+.mx-calendar {
+  padding-inline: 25px !important;
+  width: 274px!important;
+}
+
+.mx-calendar-content {
+  color: #757575 !important;
+}
+
+.mx-btn {
+  color: #000 !important;
+}
+
+.mx-datepicker-footer > button {
+  color: #2ca01c !important;
+}
+
+.cell {
+  width: 32px !important;
+  border-radius: 100rem;
+  border: 1px solid transparent;
+}
+
+.cell:hover {
+  background-color: transparent!important;
+  border-color: #2ca01c;
+}
+
+.mx-table-date .today {
+  color: #08bf1e !important;
+  font-weight: 600;
+}
+
+.mx-calendar-content .cell.active {
+  color: #08bf1e!important;
+  background-color: rgba(44, 160, 28, 0.2)!important;
+}

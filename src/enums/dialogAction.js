@@ -1,0 +1,6 @@
+export default {
+  DEFAULT: 0,
+  CONFIRM_STORE: 1,
+  CONFIRM_DELETE: 2,
+  CONFIRM_BULK_DELETE: 3,
+};

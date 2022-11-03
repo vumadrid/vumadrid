@@ -1,0 +1,240 @@
+/* CSS layout */
+@import url(./layout/main-content.css);
+@import url(./layout/menu.css);
+@import url(./layout/navbar.css);
+@import url(./layout/content.css);
+@import url(./layout/popup.css);
+/* CSS base */
+@import url(./base/icon.css);
+@import url(./base/button.css);
+@import url(./base/input.css);
+@import url(./base/table.css);
+@import url(./base/pagination.css);
+@import url(./base/dropdown.css);
+@import url(./base/skeleton.css);
+@import url(./base/combobox.css);
+@import url(./base/dialog.css);
+@import url(./base/loading.css);
+@import url(./base/keyframes.css);
+
+@font-face {
+  font-family: Noto-Sans-Regular;
+  src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+  font-family: Noto-Sans-Italic;
+  src: url(../assets/fonts/notosans-italic.1c1aaac9.woff2);
+}
+
+@font-face {
+  font-family: Noto-Sans-SemiBold;
+  src: url(../assets/fonts/notosans-semibold.df3e6dc4.woff2);
+}
+
+@font-face {
+  font-family: Noto-Sans-Bold;
+  src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+body {
+  margin: 0;
+  font-family: Noto-Sans-Regular;
+  font-size: 13px;
+  overflow: hidden;
+  position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: none;
+    text-decoration: none;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    -webkit-text-decoration-style: initial;
+    text-decoration-style: solid;
+    -webkit-text-decoration-color: initial;
+    text-decoration-color: initial;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b8bcc3
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #f1f1f1;
+  width: 10px
+}
+
+.m-container {
+  display: flex;
+  height: 100vh;
+}
+
+.m-flex {
+  display: flex;
+}
+
+.m-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.m-pr-4 {
+  padding-right: 4px;
+}
+
+.m-pr-6 {
+  padding-right: 6px;
+}
+
+.m-pr-8 {
+  padding-right: 8px;
+}
+
+.m-pr-12 {
+  padding-right: 12px;
+}
+
+.m-pl-4 {
+  padding-left: 4px;
+}
+
+.m-pl-6 {
+  padding-left: 6px;
+}
+
+.m-pl-8 {
+  padding-left: 8px;
+}
+
+.m-pl-12 {
+  padding-left: 12px;
+}
+
+.m-pt-4 {
+  padding-top: 4px;
+}
+
+.m-pt-6 {
+  padding-top: 6px;
+}
+
+.m-pt-8 {
+  padding-top: 8px;
+}
+
+.m-pt-12 {
+  padding-top: 12px;
+}
+
+.m-pb-4 {
+  padding-bottom: 4px;
+}
+
+.m-pb-6 {
+  padding-bottom: 6px;
+}
+
+.m-pb-8 {
+  padding-bottom: 8px;
+}
+
+.m-pb-12 {
+  padding-bottom: 12px;
+}
+
+.m-mr-4 {
+  margin-right: 4px;
+}
+
+.m-mr-6 {
+  margin-right: 6px;
+}
+
+.m-mr-8 {
+  margin-right: 8px;
+}
+
+.m-mr-12 {
+  margin-right: 12px;
+}
+
+.m-ml-4 {
+  margin-left: 4px;
+}
+
+.m-ml-6 {
+  margin-left: 6px;
+}
+
+.m-ml-8 {
+  margin-left: 8px;
+}
+
+.m-ml-12 {
+  margin-left: 12px;
+}
+
+.m-mt-4 {
+  margin-top: 4px;
+}
+
+.m-mt-6 {
+  margin-top: 6px;
+}
+
+.m-mt-8 {
+  margin-top: 8px;
+}
+
+.m-mt-12 {
+  margin-top: 12px;
+}
+
+.m-mb-4 {
+  margin-bottom: 4px;
+}
+
+.m-mb-6 {
+  margin-bottom: 6px;
+}
+
+.m-mb-8 {
+  margin-bottom: 8px;
+}
+
+.m-mb-12 {
+  margin-bottom: 12px;
+}
+
+.m-justify-center {
+  justify-content: center;
+}
+
+.m-justify-between {
+  justify-content: space-between;
+}
+
+.m-align-center {
+  align-items: center;
+}
